@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">combine</string>
+
+    <string name="btn_str">NA str</string>
+    <string name="btn_stp">NA stp</string>
+    <string name="lat_na">LAT_NA</string>
+    <string name="spd_na">SPD_NA</string>
+
+</resources>

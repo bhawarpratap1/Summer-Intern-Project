@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14sp"
+    android:textAlignment="center"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="30sp"
+        android:layout_marginTop="30sp"
+        android:padding="5sp"
+        android:text="Enter Suggestion As Dense,Moderate,Heavy"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Traffic_measure"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+    <!--        android:text="Traffic_Measure"-->
+    android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Noise_measure"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+    <!--        android:text="Noise_Measure"-->
+    android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="Road_condition"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+    <!--        android:text="Road_Condition"-->
+    android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Save" />
+</LinearLayout>
